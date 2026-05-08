@@ -1,0 +1,55 @@
+"Fala pessoal! Hoje eu vou ensinar a criar o personagem, colocar o joystick virtual, adicionar luz e deixar o cenário com cara de profissional!"
+ 
+ 
+ 
+PASSO 1: CRIANDO O PERSONAGEM
+ 
+1. Clique no sinal de + e adicione um nó CharacterBody3D.
+
+2. Dentro dele, adicione um CollisionShape3D e escolha uma forma.
+
+3. Adicione também um MeshInstance3D para dar visual ao objeto.
+
+4. Anexe um script e cole o código que está na descrição.
+ 
+ 
+ 
+PASSO 2: ADICIONANDO O JOYSTICK
+ 
+1. Clique em Biblioteca de Recursos no topo.
+
+2. Pesquise por "Virtual Joystick", baixe e instale.
+
+3. Crie um nó VirtualJoystick.
+
+4. Crie um nó CanvasLayer e coloque o Joystick dentro dele.
+
+5. Vá para a visão 2D e posicione o joystick no canto da tela.
+ 
+ 
+ 
+PASSO 3: ADICIONANDO LUZ DIRECIONAL
+ 
+1. Clique no sinal de + e pesquise por DirectionalLight3D.
+
+2. Crie e posicione a luz acima da cena, inclinada para iluminar tudo.
+
+3. No inspetor, ligue a opção Enabled e em Shadow escolha Soft Shadows para ficar com sombras realistas.
+ 
+ 
+ 
+PASSO 4: COLOCANDO O CÉU E AMBIENTE
+ 
+1. Clique no ícone de Ambiente e Iluminação no canto superior direito.
+
+2. Na aba Ambiente, marque a opção Sky.
+
+3. Clique em New ProceduralSky para aparecer o céu azul automaticamente.
+
+4. Vá na aba Iluminação e ajuste a energia se precisar clarear mais.
+ 
+ 
+ 
+CÓDIGO COMPLETO na descrição 
+ 
+"Pronto! Agora você tem personagem, controle, luz, sombras e céu. O jogo está completo! Gostou? Deixa o like e se inscreve no canal! Valeu!"
